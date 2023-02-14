@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { Container, Col, Row} from "react-bootstrap"
 import { DragDropContext, Droppable } from "react-beautiful-dnd"
-import Item from "@/components/Item"
+import Item from "../components/Item"
 import React,{ useState, useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { v4 as uuidv4 } from 'uuid';
