@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "start": "vercel start",
+    "lint": "vercel lint"
   },
   "dependencies": {
     "@next/font": "13.1.6",
