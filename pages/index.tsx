@@ -14,7 +14,7 @@ export default function index() {
   useEffect(() => {
     setTasks(JSON.parse(localStorage.getItem("tasks")))
     if(JSON.parse(localStorage.getItem("tasks")) == undefined) setTasks([])
-  } , [])
+  }, [])
 
 
 
