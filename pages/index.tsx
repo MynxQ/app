@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Head from "next/head"
 import { Container, Col, Row} from "react-bootstrap"
 import { DragDropContext, Droppable } from "react-beautiful-dnd"
@@ -15,8 +16,6 @@ export default function index() {
     setTasks(JSON.parse(localStorage.getItem("tasks")))
     if(JSON.parse(localStorage.getItem("tasks")) == undefined) setTasks([])
   }, [])
-
-
 
   return (
     <Container>
